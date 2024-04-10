@@ -1,4 +1,7 @@
 <template>
+  <div id="app">
+    <router-view></router-view>
+  </div>
   <nav>
       <router-link to="/">App</router-link>
     <router-link to="/debrief">Debrief</router-link>  
