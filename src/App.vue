@@ -1,7 +1,7 @@
 <template>
   <nav>
       <router-link to="/">App</router-link>
-    <router-link to="/">Debrief</router-link>  
+    <router-link to="/debrief">Debrief</router-link>  
   </nav>
   <Header :header="this.header" />
   <div class="content-container">
