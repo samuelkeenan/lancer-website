@@ -95,7 +95,7 @@ export default {
       "missions": [
         {
           "slug": "001",
-          "name": "Hold-the-Embassy",
+          "name": "Defend-the-Embassy",
           "status": "start"
         },
       ],
