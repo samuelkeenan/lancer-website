@@ -8,7 +8,7 @@ import './assets/styles/main.scss'
 import { createRouter, createWebHistory } from 'vue-router'
 
 // Import your components for routing
-import Debrief from './components/Debrief.vue'
+import Debrief from './Debrief.vue'
 
 // Create router instance
 const router = createRouter({
