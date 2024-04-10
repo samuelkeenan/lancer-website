@@ -1,6 +1,6 @@
 <template>
   <nav>
-      <router-link to="/">App</router-link>
+    <router-link to="/">App</router-link>
     <router-link to="/debrief">Debrief</router-link>  
   </nav>
   <Header :header="this.header" />
@@ -48,6 +48,9 @@
         </div>
       </div>
     </section>
+  </div>
+    <div id="app">
+    <router-view></router-view>
   </div>
   <svg
     style="visibility: hidden; position: absolute;"
