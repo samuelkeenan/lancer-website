@@ -134,7 +134,7 @@ export default {
         },
         {
           "callsign": "Wing",
-          "alias": 'Aswingiadan D'ings',
+          "alias": "Aswingiadan D'ings",
           "code": "d1fdf62e-d81e-4e10-97c8-df3bc4860117///NDL-C-DEEP-STATION//5a4254aa-9fa2-42ca-a077-8f5bfd1e1ad3",
           "corpro": "GMS",
           "frame": "Everest",
