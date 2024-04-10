@@ -19,6 +19,11 @@ const router = createRouter({
       name: 'Debrief',
       component: Debrief
     },
+    {
+      path: '/app',
+      name: 'App',
+      component: App
+    },
     // You can add more routes here
   ]
 })
