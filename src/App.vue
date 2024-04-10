@@ -149,8 +149,8 @@ export default {
         "ring": "Karakoram-Line",
         "headerTitle": "Union",
         "headerSubtitle": "Naval Department",
-        "subheaderTitle": "Lancer Trainees",
-        "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
+        "subheaderTitle": "Lancer Cadets",
+        "subheaderSubtitle": "Delta-Squad",
       },
       "options":{
         "eventsMarkdownPerMission": true
