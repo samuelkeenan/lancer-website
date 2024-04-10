@@ -1,4 +1,7 @@
 <template>
+  <nav>
+    <router-link to="/debrief">Debrief</router-link>  
+  </nav>
   <Header :header="this.header" />
   <div class="content-container">
     <section class="section-container" id="missions" style="width:435px; height:714px;">
