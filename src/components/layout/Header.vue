@@ -6,8 +6,10 @@
           <img class="logo" src="/icons/company-icon.svg" />
         </button>
       <div class="dropdown-content">
-        <router-link to="/">App</router-link>
-        <router-link to="/debrief">Debrief</router-link>
+       <ul>
+          <li><router-link to="/">App</router-link></li>
+          <li><router-link to="/debrief">Debrief</router-link></li>
+        </ul>
       </div>
 </div>
       <div class="title-container">
