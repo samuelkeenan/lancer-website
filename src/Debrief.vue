@@ -2,7 +2,6 @@
   <nav>
     <router-link to="/debrief">Debrief</router-link>  
   </nav>
-  <Header :header="this.header" />
   <svg
     style="visibility: hidden; position: absolute;"
     width="0"
@@ -26,7 +25,6 @@
   <audio autoplay>
     <source src="/startup.ogg" type="audio/ogg" />
   </audio>
-  <Footer/>
 </template>
 
 <script>
