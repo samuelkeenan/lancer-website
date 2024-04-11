@@ -31,11 +31,6 @@ const router = createRouter({
 })
 
 
-const router = createRouter({
-  history: createWebHistory(),
-  routes
-});
-
 createApp(App)
   .use(Oruga)
   .use(router) // Use the router instance
