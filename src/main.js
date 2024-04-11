@@ -3,7 +3,6 @@ import App from './App.vue'
 import Oruga from '@oruga-ui/oruga-next'
 import '@oruga-ui/oruga-next/dist/oruga.min.css'
 import './assets/styles/main.scss'
-import { createRouter, createWebHistory } from 'vue-router'
 
 
 // Import Vue Router
