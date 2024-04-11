@@ -1,17 +1,7 @@
 <template>
   <header class="clipped-x-large-forward">
     <div class="title clipped-x-large-forward">
-      <div class="dropdown">
-        <button class="dropbtn">
-          <img class="logo" src="/icons/company-icon.svg" />
-        </button>
-      <div class="dropdown-content">
-       <ul>
-          <li><router-link to="/">App</router-link></li>
-          <li><router-link to="/debrief">Debrief</router-link></li>
-        </ul>
-      </div>
-</div>
+    <img class="logo" src="/icons/company-icon.svg" />
       <div class="title-container">
         <div class="title-row" id="title-first-line">
           <span id="title-header">{{ header.headerTitle }}</span>
