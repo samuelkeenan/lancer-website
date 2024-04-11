@@ -10,6 +10,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 // Import your components for routing
 import Debrief from './Debrief.vue'
+import Main from './Main.vue'
 
 // Create router instance
 const router = createRouter({
@@ -21,9 +22,9 @@ const router = createRouter({
       component: Debrief
     },
     {
-      path: '/app',
+      path: '/',
       name: 'App',
-      component: App
+      component: Main
     },
     // You can add more routes here
   ]
