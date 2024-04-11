@@ -176,9 +176,10 @@ header {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #fff; /* Changed background color */
     min-width: 160px;
     z-index: 1;
+    border: 1px solid #ccc; /* Added border for clarity */
 
     a {
       color: black;
