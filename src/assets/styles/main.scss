@@ -172,6 +172,7 @@ header {
 .dropdown {
   position: relative;
   display: inline-block;
+  overflow: visible;
 
   .dropdown-content {
     display: none;
