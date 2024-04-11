@@ -1,7 +1,4 @@
 <template>
-  <nav>
-    <router-link to="/debrief">Debrief</router-link>  
-  </nav>
   <svg
     style="visibility: hidden; position: absolute;"
     width="0"
