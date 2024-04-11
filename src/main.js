@@ -3,6 +3,8 @@ import App from './App.vue'
 import Oruga from '@oruga-ui/oruga-next'
 import '@oruga-ui/oruga-next/dist/oruga.min.css'
 import './assets/styles/main.scss'
+import { createRouter, createWebHistory } from 'vue-router'
+
 
 // Import Vue Router
 import { createRouter, createWebHistory } from 'vue-router'
@@ -27,6 +29,12 @@ const router = createRouter({
     // You can add more routes here
   ]
 })
+
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes
+});
 
 createApp(App)
   .use(Oruga)
