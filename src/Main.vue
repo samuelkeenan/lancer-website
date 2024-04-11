@@ -1,5 +1,4 @@
 <template>
-  <Header :header="this.header" />
   <div class="content-container">
     <section class="section-container" id="missions" style="width:435px; height:714px;">
       <div class="section-header clipped-medium-backward">
@@ -71,7 +70,6 @@
   <audio autoplay>
     <source src="/startup.ogg" type="audio/ogg" />
   </audio>
-  <Footer/>
 </template>
 
 <script>
