@@ -169,37 +169,6 @@ header {
   margin-left: 15px;
 }
 
-.dropdown {
-  position: relative;
-  display: block;
-  overflow: visible;
-  z-index: 10;
-
-  .dropdown-content {
-    display: none;
-    position: fixed;
-    background-color: #fff; /* Changed background color */
-    min-width: 160px;
-    z-index: 10;
-    border: 1px solid #ccc; /* Added border for clarity */
-
-    a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-
-      &:hover {
-        background-color: #f1f1f1;
-      }
-    }
-  }
-
-  &:hover .dropdown-content {
-    display: block;
-  }
-}
-
 .title-row {
   width: 100%;
 }
