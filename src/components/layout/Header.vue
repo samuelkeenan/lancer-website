@@ -42,10 +42,7 @@
           <span class="subtitle">{{ header.ring }}</span>
         </div>
       </div>
-      <div id="links">
-        <router-link to="/">App</router-link>
-        <router-link to="/debrief">Debrief</router-link>  
-      </div>
+
 
     </div>
   </header>
