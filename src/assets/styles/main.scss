@@ -850,41 +850,6 @@ div.markdown {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 3px;
-
-  // Nested selector for header links if additional styling needed
-  .header-link {
-    /* Additional styling for router links if needed */
-  }
-}
-By doing this, your SCSS file stays organized, and you can reuse these styles across your Vue components by simply importing the SCSS file where needed. Remember to compile your SCSS file into CSS using a tool like Sass if your project setup requires it.
-
-
-
-
-User
-can you add colour to the css, specifically rgba(255, 255, 255, 0.87)? Also, I now want the two router-links above to be placed one on top of the other
-ChatGPT
-Certainly! Here's the updated SCSS code with the color added and the router links placed one on top of the other:
-
-scss
-Copy code
-// Your SCSS file
-
-// Define a selector for the container
-.container {
-  display: flex;
-  justify-content: flex-end; /* Aligns items to the right */
-}
-
-// Define a selector for the new section
-.new-section {
-  margin: 0;
-  line-height: 1.5em;
-  font-family: "Raleway", sans-serif;
-  font-size: 10px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 3px;
   color: rgba(255, 255, 255, 0.87); // Text color
 
   // Nested selector for header links
