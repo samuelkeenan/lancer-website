@@ -44,8 +44,8 @@
       </div>
     </div>
     <div class="new-section">
-      <router-link to="/debrief" class="header-link">Dossier</router-link>
       <router-link to="/main" class="header-link">Debrief</router-link>
+      <router-link to="/debrief" class="header-link">Dossier</router-link>
     </div>
   </header>
 </template>
