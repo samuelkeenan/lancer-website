@@ -1,13 +1,7 @@
 <template>
   <header class="clipped-x-large-forward">
     <div class="title clipped-x-large-forward">
-  <div style="position: relative; display: inline-block;">
-    <img class="logo" src="/icons/company-icon.svg" @click="isOpen = !isOpen" alt="Dropdown Icon" style="cursor: pointer;">
-    <div v-if="isOpen" style="display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;">
-      <router-link to="/main" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">Debrief</router-link>
-      <router-link to="/debrief" style="color: black; padding: 12px 16px; text-decoration: none; display: block;">Dossier</router-link>
-    </div>
-  </div>
+     <img class="logo" src="/icons/company-icon.svg" />
       <div class="title-container">
         <div class="title-row" id="title-first-line">
           <span id="title-header">{{ header.headerTitle }}</span>
