@@ -270,7 +270,10 @@ div.location-info {
     border-left: 1px solid $highlight-hover;
     padding-right: 0px;
   }
-}
+
+  #debrief {
+    border-left: 1px solid $location-separator;
+  }
 
 #missions,
 #events,
