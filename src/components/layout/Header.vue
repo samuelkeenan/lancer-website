@@ -42,7 +42,9 @@
           <span class="subtitle">{{ header.ring }}</span>
         </div>
       </div>
-
+      <div>
+        <router-link to="debrief">Debrief</router-link>
+      </div> 
 
     </div>
   </header>
