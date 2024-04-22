@@ -41,10 +41,11 @@
           <h4>Ring</h4>
           <span class="subtitle">{{ header.ring }}</span>
         </div>
+        <div id="debrief">
+          <router-link :to="debrief" class="subtitle">Debrief</router-link>
+        </div> 
       </div>
-      <div id="debrief">
-        <router-link :to="debrief" class="subtitle">Debrief</router-link>
-      </div> 
+
 
     </div>
   </header>
