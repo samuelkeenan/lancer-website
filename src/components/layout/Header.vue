@@ -43,8 +43,7 @@
         </div>
       </div>
       <div>
-        <router-link to="debrief">Debrief</router-link>
-        <span class="subtitle">{{ header.debrief }}</span>
+        <router-link :to="debrief" class="subtitle">{{ header.debrief }}>Debrief</router-link>
       </div> 
 
     </div>
