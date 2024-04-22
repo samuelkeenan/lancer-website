@@ -44,6 +44,7 @@
       </div>
       <div>
         <router-link to="debrief">Debrief</router-link>
+        <span class="subtitle">{{ header.debrief }}</span>
       </div> 
 
     </div>
