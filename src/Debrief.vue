@@ -53,6 +53,7 @@ export default {
         "headerSubtitle": "Naval Department",
         "subheaderTitle": "Lancer Cadets",
         "subheaderSubtitle": "Delta-Squad",
+        "debrief": "Debrief",
       },
       "options":{
         "eventsMarkdownPerMission": true
