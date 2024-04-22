@@ -857,5 +857,11 @@ div.markdown {
     display: block; // Ensure each link takes full width
     margin-bottom: 5px; // Adjust vertical spacing between links if needed
     text-decoration: none; // Remove underline from links
+    &:visited,
+    &:hover,
+    &:active,
+    &:focus {
+      color: rgba(255, 255, 255, 0.87); // Prevent color change on visited, hover, active, and focus states
+    }
   }
 }
