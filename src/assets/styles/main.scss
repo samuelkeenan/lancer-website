@@ -835,3 +835,24 @@ div.markdown {
   padding-bottom: 1em;
   border-bottom: none;
 }
+
+.container {
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the right */
+}
+
+// Define a selector for the new section
+.new-section {
+  margin: 0;
+  line-height: 1.5em;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+  // Nested selector for header links if additional styling needed
+  .header-link {
+    /* Additional styling for router links if needed */
+  }
+}
