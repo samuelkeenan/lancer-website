@@ -42,16 +42,6 @@
           <span class="subtitle">{{ header.ring }}</span>
         </div>
       </div>
-
-      <div id="debrief">
-        <router-link :to="debrief" style="color: rgba(255, 255, 255, 0.87); text-decoration: underline;">Debrief</router-link>
-      </div> 
-      <div>
-        <router-link :to="debrief">Debrief</router-link>
-      </div> 
-      
-
-
     </div>
   </header>
 </template>
