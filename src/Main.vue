@@ -97,11 +97,11 @@ export default {
         {
           "slug": "001",
           "name": "Defend-the-Embassy",
-          "status": "start"
+          "status": "success"
         },
         {
           "slug": "002",
-          "name": "Vigilant Gaze",
+          "name": "The Omni Heist",
           "status": "start"
         },
       ],
