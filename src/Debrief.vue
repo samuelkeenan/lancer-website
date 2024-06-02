@@ -165,4 +165,50 @@ export default {
   height: 910px;
   overflow: hidden;
 }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.section-container {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.section-header {
+  /* Add your styles here */
+}
+
+.rhombus-back {
+  /* Add your styles here */
+}
+
+.section-content-container {
+  padding: 20px;
+}
+
+.faction-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.faction-item {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid rgb(0, 117, 153);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.faction-image {
+  width: 100%;
+  height: auto;
+}
+
+.faction-name {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.faction-description {
+  font-size: 1em;
+}
 </style>
