@@ -12,7 +12,9 @@
       <div class="faction-list-container">
         <div v-for="faction in factions" :key="faction.slug" class="faction-item">
           <img :src="faction.image" alt="Faction Image" class="faction-image"/>
-          <h2 class="faction-name">{{ faction.name }}</h2>
+          <div>
+            <h2 class="faction-name">{{ faction.name }}</h2>
+          </div>
           <p class="faction-description">{{ faction.description }}</p>
         </div>
       </div>
