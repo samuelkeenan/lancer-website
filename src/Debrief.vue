@@ -186,29 +186,36 @@ export default {
 
 .faction-list-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .faction-item {
-  width: 200px;
-  margin: 10px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
   border: 2px solid rgb(0, 117, 153);
   padding: 10px;
   box-sizing: border-box;
 }
 
 .faction-image {
-  width: 100%;
+  width: 100px;
   height: auto;
+  margin-right: 20px;
+}
+
+.faction-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .faction-name {
   font-size: 1.2em;
-  margin: 10px 0;
+  margin: 0;
 }
 
 .faction-description {
   font-size: 1em;
+  margin: 5px 0 0 0;
 }
 </style>
