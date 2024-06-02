@@ -1,10 +1,28 @@
 <template>
   <div class="content-container">
+  <section class="section-container" id="factions" style="width:894px; height:714px;">
+    <div style="height:52px; overflow:hidden;">
+      <div class="section-header clipped-medium-backward-pilot">
+        <img src="/icons/pilot-icon.svg" />
+        <h1>Factions</h1>
+      </div>
+      <div class="rhombus-back">&nbsp;</div>
+    </div>
+    <div class="section-content-container">
+      <div class="faction-list-container">
+        <div v-for="faction in factions" :key="faction.slug" class="faction-item">
+          <img :src="faction.image" alt="Faction Image" class="faction-image"/>
+          <h2 class="faction-name">{{ faction.name }}</h2>
+          <p class="faction-description">{{ faction.description }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
     <section class="section-container" id="pilots" style="width:894px; height:714px;">
       <div style="height:52px; overflow:hidden;">
         <div class="section-header clipped-medium-backward-pilot">
           <img src="/icons/pilot-icon.svg" />
-          <h1>Pilot Roster</h1>
+          <h1>People of Interest</h1>
         </div>
         <div class="rhombus-back">&nbsp;</div>
       </div>
@@ -58,7 +76,6 @@ export default {
 
   data() {
     return {
-
       "header": {
         "planet": "Ishtar",
         "year": "5016u",
@@ -71,9 +88,24 @@ export default {
         "subheaderSubtitle": "Delta-Squad",
         "debrief": "Debrief",
       },
-      "options":{
+      "options": {
         "eventsMarkdownPerMission": true
-      }
+      },
+      factions: [
+        {
+          slug: 'faction-1',
+          name: 'Allied Republics of Ishtar',
+          description: 'Description for Faction 1',
+          image: '/path/to/image1.jpg'
+        },
+        {
+          slug: 'faction-2',
+          name: 'Union',
+          description: 'Description for Faction 2',
+          image: '/path/to/image2.jpg'
+        },
+        // Add more factions as needed
+      ]
     }
   },
 
@@ -123,7 +155,6 @@ export default {
       client.send();
     }
   }
-
 }
 </script>
 
