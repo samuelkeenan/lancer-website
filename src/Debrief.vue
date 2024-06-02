@@ -191,7 +191,6 @@ export default {
 
 .faction-item {
   display: flex;
-  align-items: center;
   margin: 10px 0;
   border: 2px solid rgb(0, 117, 153);
   padding: 10px;
@@ -211,11 +210,11 @@ export default {
 
 .faction-name {
   font-size: 1.2em;
-  margin: 0;
+  margin: 0 0 5px 0;
 }
 
 .faction-description {
   font-size: 1em;
-  margin: 5px 0 0 0;
+  margin: 0;
 }
 </style>
