@@ -98,7 +98,7 @@ export default {
           slug: 'faction-1',
           name: 'Allied Republics of Ishtar',
           description: 'Description for Faction 1',
-          image: 'public/factions/unionsymbol.png'
+          image: '/factions/unionsymbol.png'
         },
         {
           slug: 'faction-2',
