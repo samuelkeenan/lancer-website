@@ -98,7 +98,7 @@ export default {
           slug: 'faction-1',
           name: 'Allied Republics of Ishtar',
           description: 'Description for Faction 1',
-          image: '/path/to/image1.jpg'
+          image: 'public/factions/unionsymbol.png'
         },
         {
           slug: 'faction-2',
@@ -205,18 +205,18 @@ export default {
   margin-right: 20px;
 }
 
-.faction-text {
+.faction-details {
   display: flex;
   flex-direction: column;
 }
 
 .faction-name {
   font-size: 1.2em;
-  margin: 0 0 5px 0;
+  margin: 0;
 }
 
 .faction-description {
   font-size: 1em;
-  margin: 0;
+  margin: 5px 0 0 0;
 }
 </style>
